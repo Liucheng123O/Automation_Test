@@ -1,0 +1,26 @@
+2022-03-25 15:38:09,251-【basepage.py-->line:95】-INFO:在 登录页面--清除密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-03-25 15:38:09,284-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="密码"]') 元素可见.
+2022-03-25 15:38:09,299-【basepage.py-->line:95】-INFO:在 登录页面--输入密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-03-25 15:38:09,305-【basepage.py-->line:122】-INFO:在 登录页面--输入密码 往元素 ('xpath', '//input[@placeholder="密码"]') 输入文本值：admin.123.
+2022-03-25 15:38:09,355-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="验证码"]') 元素可见.
+2022-03-25 15:38:09,378-【basepage.py-->line:95】-INFO:在 登录页面--输入验证码 查找元素：('xpath', '//input[@placeholder="验证码"]').
+2022-03-25 15:38:09,382-【basepage.py-->line:122】-INFO:在 登录页面--输入验证码 往元素 ('xpath', '//input[@placeholder="验证码"]') 输入文本值：0000.
+2022-03-25 15:38:09,420-【basepage.py-->line:73】-INFO:等待 ('xpath', '//button[@type="button"]') 元素可见.
+2022-03-25 15:38:09,434-【basepage.py-->line:95】-INFO:在 登录页面--点击登录按钮 查找元素：('xpath', '//button[@type="button"]').
+2022-03-25 15:38:09,437-【basepage.py-->line:110】-INFO:在 登录页面--点击登录按钮 点击('xpath', '//button[@type="button"]')元素.
+2022-03-25 15:38:10,467-【basepage.py-->line:73】-INFO:等待 ('xpath', '//span[text()="商品管理"]') 元素可见.
+2022-03-25 15:38:16,032-【basepage.py-->line:95】-INFO:在 首页-点击进入商品管理 查找元素：('xpath', '//span[text()="商品管理"]').
+2022-03-25 15:38:16,036-【basepage.py-->line:110】-INFO:在 首页-点击进入商品管理 点击('xpath', '//span[text()="商品管理"]')元素.
+2022-03-25 15:38:16,070-【basepage.py-->line:73】-INFO:等待 ('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[5]/li/ul/div[1]/a/li') 元素可见.
+2022-03-25 15:38:16,087-【basepage.py-->line:95】-INFO:在 首页--点击进入商户管理 查找元素：('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[5]/li/ul/div[1]/a/li').
+2022-03-25 15:38:16,091-【basepage.py-->line:110】-INFO:在 首页--点击进入商户管理 点击('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[5]/li/ul/div[1]/a/li')元素.
+2022-03-25 15:38:16,130-【basepage.py-->line:73】-INFO:等待 ('xpath', "//input[@placeholder='请输入商户名称']") 元素可见.
+2022-03-25 15:38:17,254-【basepage.py-->line:95】-INFO:在 商户管理页面--输入商户名称 查找元素：('xpath', "//input[@placeholder='请输入商户名称']").
+2022-03-25 15:38:17,260-【basepage.py-->line:122】-INFO:在 商户管理页面--输入商户名称 往元素 ('xpath', "//input[@placeholder='请输入商户名称']") 输入文本值：（测试）甜品店.
+2022-03-25 15:38:17,304-【basepage.py-->line:73】-INFO:等待 ('xpath', "//span[text()='搜索']") 元素可见.
+2022-03-25 15:38:17,320-【basepage.py-->line:95】-INFO:在 商户管理页面-- 点击搜索 查找元素：('xpath', "//span[text()='搜索']").
+2022-03-25 15:38:17,324-【basepage.py-->line:110】-INFO:在 商户管理页面-- 点击搜索 点击('xpath', "//span[text()='搜索']")元素.
+2022-03-25 15:38:19,364-【basepage.py-->line:73】-INFO:等待 ('xpath', "//span[@class='el-pagination__total']") 元素可见.
+2022-03-25 15:38:19,378-【basepage.py-->line:95】-INFO:在 商户管理页面-- 获取数目条数 查找元素：('xpath', "//span[@class='el-pagination__total']").
+2022-03-25 15:38:19,382-【basepage.py-->line:149】-INFO:在 商户管理页面-- 获取数目条数 获取元素 ('xpath', "//span[@class='el-pagination__total']") 的文本内容.
+2022-03-25 15:38:19,390-【basepage.py-->line:157】-INFO:文本值为：共 1 条
