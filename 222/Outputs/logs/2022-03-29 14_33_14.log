@@ -1,9 +1,0 @@
-2022-03-29 14:33:30,261-【basepage.py-->line:67】-INFO:等待 ('-android uiautomator', 'new UiSelector().text("分类")') 元素可见.
-2022-03-29 14:33:33,799-【basepage.py-->line:89】-INFO:在 首页--点击分类 查找元素：('-android uiautomator', 'new UiSelector().text("分类")').
-2022-03-29 14:33:33,814-【basepage.py-->line:104】-INFO:在 首页--点击分类 点击('-android uiautomator', 'new UiSelector().text("分类")')元素.
-2022-03-29 14:33:35,385-【basepage.py-->line:67】-INFO:等待 ('-android uiautomator', 'new UiSelector().text("搜索商家或商品名称")') 元素可见.
-2022-03-29 14:33:35,438-【basepage.py-->line:89】-INFO:在 分类---输入搜索商品名称 查找元素：('-android uiautomator', 'new UiSelector().text("搜索商家或商品名称")').
-2022-03-29 14:33:35,463-【basepage.py-->line:116】-INFO:在 分类---输入搜索商品名称 往元素 ('-android uiautomator', 'new UiSelector().text("搜索商家或商品名称")') 输入文本值：8.
-2022-03-29 14:33:48,449-【basepage.py-->line:67】-INFO:等待 ('-android uiautomator', 'new UiSelector().text("搜索")') 元素可见.
-2022-03-29 14:33:48,493-【basepage.py-->line:89】-INFO:在 分类----正在点击搜索 查找元素：('-android uiautomator', 'new UiSelector().text("搜索")').
-2022-03-29 14:33:48,512-【basepage.py-->line:104】-INFO:在 分类----正在点击搜索 点击('-android uiautomator', 'new UiSelector().text("搜索")')元素.
