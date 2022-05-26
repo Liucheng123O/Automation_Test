@@ -1,0 +1,23 @@
+2022-04-02 18:23:34,629-【basepage.py-->line:95】-INFO:在 登录页面--清除密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-04-02 18:23:34,666-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="密码"]') 元素可见.
+2022-04-02 18:23:34,683-【basepage.py-->line:95】-INFO:在 登录页面--输入密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-04-02 18:23:34,690-【basepage.py-->line:122】-INFO:在 登录页面--输入密码 往元素 ('xpath', '//input[@placeholder="密码"]') 输入文本值：admin.123.
+2022-04-02 18:23:34,753-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="验证码"]') 元素可见.
+2022-04-02 18:23:34,788-【basepage.py-->line:95】-INFO:在 登录页面--输入验证码 查找元素：('xpath', '//input[@placeholder="验证码"]').
+2022-04-02 18:23:34,795-【basepage.py-->line:122】-INFO:在 登录页面--输入验证码 往元素 ('xpath', '//input[@placeholder="验证码"]') 输入文本值：0000.
+2022-04-02 18:23:34,836-【basepage.py-->line:73】-INFO:等待 ('xpath', '//button[@type="button"]') 元素可见.
+2022-04-02 18:23:34,852-【basepage.py-->line:95】-INFO:在 登录页面--点击登录按钮 查找元素：('xpath', '//button[@type="button"]').
+2022-04-02 18:23:34,858-【basepage.py-->line:110】-INFO:在 登录页面--点击登录按钮 点击('xpath', '//button[@type="button"]')元素.
+2022-04-02 18:23:35,889-【basepage.py-->line:73】-INFO:等待 ('xpath', '//span[text()="商品管理"]') 元素可见.
+2022-04-02 18:23:35,905-【basepage.py-->line:95】-INFO:在 首页-点击进入商品管理 查找元素：('xpath', '//span[text()="商品管理"]').
+2022-04-02 18:23:35,909-【basepage.py-->line:110】-INFO:在 首页-点击进入商品管理 点击('xpath', '//span[text()="商品管理"]')元素.
+2022-04-02 18:23:35,945-【basepage.py-->line:73】-INFO:等待 ('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[5]/li/ul/div[1]/a/li') 元素可见.
+2022-04-02 18:23:46,292-【basepage.py-->line:42】-INFO:截取当前页面图片保存在： D:\pycharm\JiaoZiDT_Web_PO\Outputs/screensshots/首页--点击进入商户管理_2022-04-02 18_23_46.png
+2022-04-02 18:23:46,292-【basepage.py-->line:80】-ERROR:等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\pycharm\JiaoZiDT_Web_PO\Common\basepage.py", line 76, in wait_element_visible
+    WebDriverWait(self.driver,timeout).until(expected_conditions.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

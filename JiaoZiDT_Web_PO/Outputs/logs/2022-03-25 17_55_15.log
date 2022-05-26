@@ -1,0 +1,11 @@
+2022-03-25 17:55:19,056-【basepage.py-->line:95】-INFO:在 登录页面--清除密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-03-25 17:55:19,101-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="密码"]') 元素可见.
+2022-03-25 17:55:19,121-【basepage.py-->line:95】-INFO:在 登录页面--输入密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-03-25 17:55:19,127-【basepage.py-->line:122】-INFO:在 登录页面--输入密码 往元素 ('xpath', '//input[@placeholder="密码"]') 输入文本值：admin.123.
+2022-03-25 17:55:19,187-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="验证码"]') 元素可见.
+2022-03-25 17:55:19,213-【basepage.py-->line:95】-INFO:在 登录页面--输入验证码 查找元素：('xpath', '//input[@placeholder="验证码"]').
+2022-03-25 17:55:19,220-【basepage.py-->line:122】-INFO:在 登录页面--输入验证码 往元素 ('xpath', '//input[@placeholder="验证码"]') 输入文本值：0000.
+2022-03-25 17:55:19,265-【basepage.py-->line:73】-INFO:等待 ('xpath', '//button[@type="button"]') 元素可见.
+2022-03-25 17:55:19,280-【basepage.py-->line:95】-INFO:在 登录页面--点击登录按钮 查找元素：('xpath', '//button[@type="button"]').
+2022-03-25 17:55:19,285-【basepage.py-->line:110】-INFO:在 登录页面--点击登录按钮 点击('xpath', '//button[@type="button"]')元素.
+2022-03-25 17:55:20,318-【basepage.py-->line:73】-INFO:等待 ('xpath', '//span[text()="商品管理"]') 元素可见.

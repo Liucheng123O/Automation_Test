@@ -1,0 +1,37 @@
+2022-04-02 18:25:37,913-【basepage.py-->line:95】-INFO:在 登录页面--清除密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-04-02 18:25:37,948-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="密码"]') 元素可见.
+2022-04-02 18:25:37,964-【basepage.py-->line:95】-INFO:在 登录页面--输入密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-04-02 18:25:37,969-【basepage.py-->line:122】-INFO:在 登录页面--输入密码 往元素 ('xpath', '//input[@placeholder="密码"]') 输入文本值：admin.123.
+2022-04-02 18:25:38,031-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="验证码"]') 元素可见.
+2022-04-02 18:25:38,056-【basepage.py-->line:95】-INFO:在 登录页面--输入验证码 查找元素：('xpath', '//input[@placeholder="验证码"]').
+2022-04-02 18:25:38,061-【basepage.py-->line:122】-INFO:在 登录页面--输入验证码 往元素 ('xpath', '//input[@placeholder="验证码"]') 输入文本值：0000.
+2022-04-02 18:25:38,097-【basepage.py-->line:73】-INFO:等待 ('xpath', '//button[@type="button"]') 元素可见.
+2022-04-02 18:25:38,111-【basepage.py-->line:95】-INFO:在 登录页面--点击登录按钮 查找元素：('xpath', '//button[@type="button"]').
+2022-04-02 18:25:38,115-【basepage.py-->line:110】-INFO:在 登录页面--点击登录按钮 点击('xpath', '//button[@type="button"]')元素.
+2022-04-02 18:25:39,144-【basepage.py-->line:73】-INFO:等待 ('xpath', '//span[text()="商品管理"]') 元素可见.
+2022-04-02 18:25:39,159-【basepage.py-->line:95】-INFO:在 首页-点击进入商品管理 查找元素：('xpath', '//span[text()="商品管理"]').
+2022-04-02 18:25:39,163-【basepage.py-->line:110】-INFO:在 首页-点击进入商品管理 点击('xpath', '//span[text()="商品管理"]')元素.
+2022-04-02 18:25:39,197-【basepage.py-->line:73】-INFO:等待 ('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[5]/li/ul/div[1]/a/li') 元素可见.
+2022-04-02 18:25:49,526-【basepage.py-->line:42】-INFO:截取当前页面图片保存在： D:\pycharm\JiaoZiDT_Web_PO\Outputs/screensshots/首页--点击进入商户管理_2022-04-02 18_25_49.png
+2022-04-02 18:25:49,526-【basepage.py-->line:80】-ERROR:等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\pycharm\JiaoZiDT_Web_PO\Common\basepage.py", line 76, in wait_element_visible
+    WebDriverWait(self.driver,timeout).until(expected_conditions.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-04-02 18:25:54,317-【basepage.py-->line:95】-INFO:在 登录页面--清除密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-04-02 18:25:54,369-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="密码"]') 元素可见.
+2022-04-02 18:25:54,384-【basepage.py-->line:95】-INFO:在 登录页面--输入密码 查找元素：('xpath', '//input[@placeholder="密码"]').
+2022-04-02 18:25:54,390-【basepage.py-->line:122】-INFO:在 登录页面--输入密码 往元素 ('xpath', '//input[@placeholder="密码"]') 输入文本值：admin.123.
+2022-04-02 18:25:54,455-【basepage.py-->line:73】-INFO:等待 ('xpath', '//input[@placeholder="验证码"]') 元素可见.
+2022-04-02 18:25:54,471-【basepage.py-->line:95】-INFO:在 登录页面--输入验证码 查找元素：('xpath', '//input[@placeholder="验证码"]').
+2022-04-02 18:25:54,476-【basepage.py-->line:122】-INFO:在 登录页面--输入验证码 往元素 ('xpath', '//input[@placeholder="验证码"]') 输入文本值：0000.
+2022-04-02 18:25:54,512-【basepage.py-->line:73】-INFO:等待 ('xpath', '//button[@type="button"]') 元素可见.
+2022-04-02 18:25:54,527-【basepage.py-->line:95】-INFO:在 登录页面--点击登录按钮 查找元素：('xpath', '//button[@type="button"]').
+2022-04-02 18:25:54,531-【basepage.py-->line:110】-INFO:在 登录页面--点击登录按钮 点击('xpath', '//button[@type="button"]')元素.
+2022-04-02 18:25:55,558-【basepage.py-->line:73】-INFO:等待 ('xpath', '//span[text()="商品管理"]') 元素可见.
+2022-04-02 18:25:55,572-【basepage.py-->line:95】-INFO:在 首页-点击进入商品管理 查找元素：('xpath', '//span[text()="商品管理"]').
+2022-04-02 18:25:55,576-【basepage.py-->line:110】-INFO:在 首页-点击进入商品管理 点击('xpath', '//span[text()="商品管理"]')元素.
+2022-04-02 18:25:55,612-【basepage.py-->line:73】-INFO:等待 ('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[5]/li/ul/div[1]/a/li') 元素可见.
